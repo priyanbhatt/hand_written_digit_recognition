@@ -98,3 +98,13 @@ Random Forest (Flattened Inputs)
 
 96.04%
 
+**Conclusion and Summary**
+
+This project demonstrates how different modeling approaches perform on the same digit classification task. The CNN significantly outperforms both the FCN and Random Forest due to its ability to extract spatial features directly from image pixels. FCNs perform decently with faster training time but lack the spatial awareness that CNNs offer. The Random Forest model, while not deep learning-based, gives a respectable baseline without the need for GPU acceleration.
+
+In summary:
+->Deep learning approaches outperform classical methods on image data.
+
+->CNNs are best suited for vision tasks due to their convolutional architecture.
+
+->Model choice should balance accuracy, interpretability, and computational cost based on your specific use case.
